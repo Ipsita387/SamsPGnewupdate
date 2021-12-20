@@ -9,15 +9,103 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">PGCAFSuite</th></tr>
-<tr><td><a href="#t0">ScenarioTesting</a></td><td class="num">6</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">103,604</td><td></td><td></td></tr>
+<tr><td><a href="#t0">ScenarioTesting</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num attn">4</td><td class="num">441,136</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">PGCAFSuite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">ScenarioTesting &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">com.PG.Tests.ApplyingCAFWithDifferentBoards</td><td><a href="#m0">LoggingIn</a></td><td rowspan="1">1639042305017</td><td rowspan="1">14740</td></tr><tr class="passedeven"><td><a href="#m1">SubmissionCAFWithNonOdishaBoard</a></td><td rowspan="1">1639042334868</td><td rowspan="1">11820</td></tr><tr class="passedeven"><td><a href="#m2">SubmissionCAFWithOdishaBoard</a></td><td rowspan="1">1639042319764</td><td rowspan="1">15104</td></tr><tr class="passedodd"><td rowspan="3">com.PG.Tests.ApplyingCAFWithDiffernetExamType</td><td><a href="#m3">LoggingIn</a></td><td rowspan="1">1639042358297</td><td rowspan="1">11612</td></tr><tr class="passedodd"><td><a href="#m4">SubmittingCAFwithAnnualExam</a></td><td rowspan="1">1639042369910</td><td rowspan="1">18014</td></tr><tr class="passedodd"><td><a href="#m5">SubmittingCAFwithSupplementaryExam</a></td><td rowspan="1">1639042387924</td><td rowspan="1">11814</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">PGCAFSuite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">ScenarioTesting &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">com.PG.Tests.ApplyingCAFWithDifferentBoards</td><td><a href="#m0">SubmissionCAFWithNonOdishaBoard</a></td><td rowspan="1">1639985805166</td><td rowspan="1">30699</td></tr><tr class="failedeven"><td><a href="#m1">SubmissionCAFWithOdishaBoard</a></td><td rowspan="1">1639985743716</td><td rowspan="1">30462</td></tr><tr class="failedodd"><td rowspan="2">com.PG.Tests.ApplyingCAFWithDiffernetExamType</td><td><a href="#m2">SubmittingCAFwithAnnualExam</a></td><td rowspan="1">1639985888717</td><td rowspan="1">30060</td></tr><tr class="failedodd"><td><a href="#m3">SubmittingCAFwithSupplementaryExam</a></td><td rowspan="1">1639985959845</td><td rowspan="1">30340</td></tr><tr><th colspan="4">ScenarioTesting &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.PG.Tests.ApplyingCAFWithDifferentBoards</td><td><a href="#m4">LoggingIn</a></td><td rowspan="1">1639985679061</td><td rowspan="1">64481</td></tr><tr class="passedodd"><td rowspan="1">com.PG.Tests.ApplyingCAFWithDiffernetExamType</td><td><a href="#m5">LoggingIn</a></td><td rowspan="1">1639985874012</td><td rowspan="1">14704</td></tr></tbody>
 </table>
-<h2>ScenarioTesting</h2><h3 id="m0">com.PG.Tests.ApplyingCAFWithDifferentBoards#LoggingIn</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.PG.Tests.ApplyingCAFWithDifferentBoards#SubmissionCAFWithNonOdishaBoard</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.PG.Tests.ApplyingCAFWithDifferentBoards#SubmissionCAFWithOdishaBoard</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">com.PG.Tests.ApplyingCAFWithDiffernetExamType#LoggingIn</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">com.PG.Tests.ApplyingCAFWithDiffernetExamType#SubmittingCAFwithAnnualExam</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">com.PG.Tests.ApplyingCAFWithDiffernetExamType#SubmittingCAFwithSupplementaryExam</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>ScenarioTesting</h2><h3 id="m0">com.PG.Tests.ApplyingCAFWithDifferentBoards#SubmissionCAFWithNonOdishaBoard</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#ddlBoard&quot;}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;CSMBHUD171&apos;, ip: &apos;192.168.61.76&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\IPSITA~1.PAT\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:64813}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9166deca2639d46b9c16830ee3730e79
+*** Element info: {Using=id, value=ddlBoard}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.PG.objectRepository.PGCAFNew.BoardName(PGCAFNew.java:47)
+	at com.PG.Tests.ApplyingCAFWithDifferentBoards.SubmissionCAFWithNonOdishaBoard(ApplyingCAFWithDifferentBoards.java:142)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.PG.Tests.ApplyingCAFWithDifferentBoards#SubmissionCAFWithOdishaBoard</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[contains(text(),&apos;Application Form&apos;)]&quot;}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;CSMBHUD171&apos;, ip: &apos;192.168.61.76&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\IPSITA~1.PAT\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:64813}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9166deca2639d46b9c16830ee3730e79
+*** Element info: {Using=xpath, value=//span[contains(text(),&apos;Application Form&apos;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.PG.objectRepository.PGCAFNew.ApplicationFormButton(PGCAFNew.java:29)
+	at com.PG.Tests.ApplyingCAFWithDifferentBoards.SubmissionCAFWithOdishaBoard(ApplyingCAFWithDifferentBoards.java:38)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.PG.Tests.ApplyingCAFWithDiffernetExamType#SubmittingCAFwithAnnualExam</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[contains(text(),&apos;Application Form&apos;)]&quot;}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;CSMBHUD171&apos;, ip: &apos;192.168.61.76&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\IPSITA~1.PAT\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:64944}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 92e96eec878b7b290ace8231336bd63f
+*** Element info: {Using=xpath, value=//span[contains(text(),&apos;Application Form&apos;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.PG.objectRepository.PGCAFNew.ApplicationFormButton(PGCAFNew.java:29)
+	at com.PG.Tests.ApplyingCAFWithDiffernetExamType.SubmittingCAFwithAnnualExam(ApplyingCAFWithDiffernetExamType.java:37)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.PG.Tests.ApplyingCAFWithDiffernetExamType#SubmittingCAFwithSupplementaryExam</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#ddlBoard&quot;}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;CSMBHUD171&apos;, ip: &apos;192.168.61.76&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\IPSITA~1.PAT\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:64944}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 92e96eec878b7b290ace8231336bd63f
+*** Element info: {Using=id, value=ddlBoard}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.PG.objectRepository.PGCAFNew.BoardName(PGCAFNew.java:47)
+	at com.PG.Tests.ApplyingCAFWithDiffernetExamType.SubmittingCAFwithSupplementaryExam(ApplyingCAFWithDiffernetExamType.java:138)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.PG.Tests.ApplyingCAFWithDifferentBoards#LoggingIn</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.PG.Tests.ApplyingCAFWithDiffernetExamType#LoggingIn</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

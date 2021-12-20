@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-PGCAFSuite">
-              <span class="suite-name border-passed">PGCAFSuite</span>
+              <span class="suite-name border-failed">PGCAFSuite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -93,7 +93,36 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">6 methods,   6 passed</span>
+                    <span class="method-stats">6 methods, 4 failed,   2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-PGCAFSuite" class="hide-methods failed suite-PGCAFSuite"> (hide)</a> <!-- hide-methods failed suite-PGCAFSuite -->
+                      <a href="#" panel-name="suite-PGCAFSuite" class="show-methods failed suite-PGCAFSuite"> (show)</a> <!-- show-methods failed suite-PGCAFSuite -->
+                    </span>
+                    <div class="method-list-content failed suite-PGCAFSuite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PGCAFSuite" title="com.PG.Tests.ApplyingCAFWithDifferentBoards" hash-for-method="SubmissionCAFWithNonOdishaBoard">SubmissionCAFWithNonOdishaBoard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PGCAFSuite" title="com.PG.Tests.ApplyingCAFWithDifferentBoards" hash-for-method="SubmissionCAFWithOdishaBoard">SubmissionCAFWithOdishaBoard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PGCAFSuite" title="com.PG.Tests.ApplyingCAFWithDiffernetExamType" hash-for-method="SubmittingCAFwithAnnualExam">SubmittingCAFwithAnnualExam</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PGCAFSuite" title="com.PG.Tests.ApplyingCAFWithDiffernetExamType" hash-for-method="SubmittingCAFwithSupplementaryExam">SubmittingCAFwithSupplementaryExam</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-PGCAFSuite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -112,26 +141,6 @@
                         <a href="#" class="method navigator-link" panel-name="suite-PGCAFSuite" title="com.PG.Tests.ApplyingCAFWithDiffernetExamType" hash-for-method="LoggingIn">LoggingIn</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-PGCAFSuite" title="com.PG.Tests.ApplyingCAFWithDifferentBoards" hash-for-method="SubmissionCAFWithNonOdishaBoard">SubmissionCAFWithNonOdishaBoard</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-PGCAFSuite" title="com.PG.Tests.ApplyingCAFWithDifferentBoards" hash-for-method="SubmissionCAFWithOdishaBoard">SubmissionCAFWithOdishaBoard</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-PGCAFSuite" title="com.PG.Tests.ApplyingCAFWithDiffernetExamType" hash-for-method="SubmittingCAFwithAnnualExam">SubmittingCAFwithAnnualExam</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-PGCAFSuite" title="com.PG.Tests.ApplyingCAFWithDiffernetExamType" hash-for-method="SubmittingCAFwithSupplementaryExam">SubmittingCAFwithSupplementaryExam</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                     </div> <!-- method-list-content passed suite-PGCAFSuite -->
                   </li>
                 </ul>
@@ -144,6 +153,146 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-PGCAFSuite" class="panel PGCAFSuite">
+          <div class="suite-PGCAFSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.PG.Tests.ApplyingCAFWithDiffernetExamType</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SubmittingCAFwithAnnualExam">
+                  </a> <!-- SubmittingCAFwithAnnualExam -->
+                  <span class="method-name">SubmittingCAFwithAnnualExam</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[contains(text(),&apos;Application Form&apos;)]&quot;}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;CSMBHUD171&apos;, ip: &apos;192.168.61.76&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\IPSITA~1.PAT\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:64944}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 92e96eec878b7b290ace8231336bd63f
+*** Element info: {Using=xpath, value=//span[contains(text(),&apos;Application Form&apos;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.PG.objectRepository.PGCAFNew.ApplicationFormButton(PGCAFNew.java:29)
+	at com.PG.Tests.ApplyingCAFWithDiffernetExamType.SubmittingCAFwithAnnualExam(ApplyingCAFWithDiffernetExamType.java:37)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SubmittingCAFwithSupplementaryExam">
+                  </a> <!-- SubmittingCAFwithSupplementaryExam -->
+                  <span class="method-name">SubmittingCAFwithSupplementaryExam</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#ddlBoard&quot;}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;CSMBHUD171&apos;, ip: &apos;192.168.61.76&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\IPSITA~1.PAT\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:64944}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 92e96eec878b7b290ace8231336bd63f
+*** Element info: {Using=id, value=ddlBoard}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.PG.objectRepository.PGCAFNew.BoardName(PGCAFNew.java:47)
+	at com.PG.Tests.ApplyingCAFWithDiffernetExamType.SubmittingCAFwithSupplementaryExam(ApplyingCAFWithDiffernetExamType.java:138)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PGCAFSuite-class-failed -->
+          <div class="suite-PGCAFSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.PG.Tests.ApplyingCAFWithDifferentBoards</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SubmissionCAFWithNonOdishaBoard">
+                  </a> <!-- SubmissionCAFWithNonOdishaBoard -->
+                  <span class="method-name">SubmissionCAFWithNonOdishaBoard</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#ddlBoard&quot;}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;CSMBHUD171&apos;, ip: &apos;192.168.61.76&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\IPSITA~1.PAT\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:64813}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9166deca2639d46b9c16830ee3730e79
+*** Element info: {Using=id, value=ddlBoard}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.PG.objectRepository.PGCAFNew.BoardName(PGCAFNew.java:47)
+	at com.PG.Tests.ApplyingCAFWithDifferentBoards.SubmissionCAFWithNonOdishaBoard(ApplyingCAFWithDifferentBoards.java:142)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SubmissionCAFWithOdishaBoard">
+                  </a> <!-- SubmissionCAFWithOdishaBoard -->
+                  <span class="method-name">SubmissionCAFWithOdishaBoard</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[contains(text(),&apos;Application Form&apos;)]&quot;}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;CSMBHUD171&apos;, ip: &apos;192.168.61.76&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\IPSITA~1.PAT\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:64813}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9166deca2639d46b9c16830ee3730e79
+*** Element info: {Using=xpath, value=//span[contains(text(),&apos;Application Form&apos;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.PG.objectRepository.PGCAFNew.ApplicationFormButton(PGCAFNew.java:29)
+	at com.PG.Tests.ApplyingCAFWithDifferentBoards.SubmissionCAFWithOdishaBoard(ApplyingCAFWithDifferentBoards.java:38)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PGCAFSuite-class-failed -->
           <div class="suite-PGCAFSuite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -155,20 +304,6 @@
                   <a name="LoggingIn">
                   </a> <!-- LoggingIn -->
                   <span class="method-name">LoggingIn</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="SubmittingCAFwithAnnualExam">
-                  </a> <!-- SubmittingCAFwithAnnualExam -->
-                  <span class="method-name">SubmittingCAFwithAnnualExam</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="SubmittingCAFwithSupplementaryExam">
-                  </a> <!-- SubmittingCAFwithSupplementaryExam -->
-                  <span class="method-name">SubmittingCAFwithSupplementaryExam</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -184,20 +319,6 @@
                   <a name="LoggingIn">
                   </a> <!-- LoggingIn -->
                   <span class="method-name">LoggingIn</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="SubmissionCAFWithNonOdishaBoard">
-                  </a> <!-- SubmissionCAFWithNonOdishaBoard -->
-                  <span class="method-name">SubmissionCAFWithNonOdishaBoard</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="SubmissionCAFWithOdishaBoard">
-                  </a> <!-- SubmissionCAFWithOdishaBoard -->
-                  <span class="method-name">SubmissionCAFWithOdishaBoard</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -260,34 +381,34 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(6);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'SubmittingCAFwithAnnualExam')
-data.setCell(0, 2, 'com.PG.Tests.ApplyingCAFWithDiffernetExamType')
-data.setCell(0, 3, 18014);
+data.setCell(0, 1, 'LoggingIn')
+data.setCell(0, 2, 'com.PG.Tests.ApplyingCAFWithDifferentBoards')
+data.setCell(0, 3, 64481);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'SubmissionCAFWithOdishaBoard')
+data.setCell(1, 1, 'SubmissionCAFWithNonOdishaBoard')
 data.setCell(1, 2, 'com.PG.Tests.ApplyingCAFWithDifferentBoards')
-data.setCell(1, 3, 15104);
+data.setCell(1, 3, 30699);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'LoggingIn')
+data.setCell(2, 1, 'SubmissionCAFWithOdishaBoard')
 data.setCell(2, 2, 'com.PG.Tests.ApplyingCAFWithDifferentBoards')
-data.setCell(2, 3, 14740);
+data.setCell(2, 3, 30462);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'SubmissionCAFWithNonOdishaBoard')
-data.setCell(3, 2, 'com.PG.Tests.ApplyingCAFWithDifferentBoards')
-data.setCell(3, 3, 11820);
+data.setCell(3, 1, 'SubmittingCAFwithSupplementaryExam')
+data.setCell(3, 2, 'com.PG.Tests.ApplyingCAFWithDiffernetExamType')
+data.setCell(3, 3, 30340);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'SubmittingCAFwithSupplementaryExam')
+data.setCell(4, 1, 'SubmittingCAFwithAnnualExam')
 data.setCell(4, 2, 'com.PG.Tests.ApplyingCAFWithDiffernetExamType')
-data.setCell(4, 3, 11814);
+data.setCell(4, 3, 30060);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'LoggingIn')
 data.setCell(5, 2, 'com.PG.Tests.ApplyingCAFWithDiffernetExamType')
-data.setCell(5, 3, 11612);
+data.setCell(5, 3, 14704);
 window.suiteTableData['PGCAFSuite']= { tableData: data, tableDiv: 'times-div-PGCAFSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
               <div id="times-div-PGCAFSuite">
               </div> <!-- times-div-PGCAFSuite -->
             </div> <!-- times-div -->
@@ -320,42 +441,50 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">LoggingIn</span>
-                <span class="method-start">8012 ms</span>
+                <span class="method-start">84781 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">SubmissionCAFWithOdishaBoard</span>
-                <span class="method-start">22759 ms</span>
+                <span class="method-start">149436 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">SubmissionCAFWithNonOdishaBoard</span>
-                <span class="method-start">37863 ms</span>
+                <span class="method-start">210886 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">QuitBrowser</span>
-                <span class="method-start">49684 ms</span>
+                <span class="method-start">265761 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.PG.Tests.ApplyingCAFWithDiffernetExamType</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">Startup</span>
-                <span class="method-start">50369 ms</span>
+                <span class="method-start">267321 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">LoggingIn</span>
-                <span class="method-start">61292 ms</span>
+                <span class="method-start">279732 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">SubmittingCAFwithAnnualExam</span>
-                <span class="method-start">72905 ms</span>
+                <span class="method-start">294437 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">SubmittingCAFwithSupplementaryExam</span>
-                <span class="method-start">90919 ms</span>
+                <span class="method-start">365565 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">QuitBrowser</span>
-                <span class="method-start">102734 ms</span>
+                <span class="method-start">431326 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
